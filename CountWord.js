@@ -31,3 +31,20 @@ for (let i= 0; i<input.length; i++){
     console.log("Both word occured same times");
     }
 }
+
+//2.a. Looping a triangle: Write a loop that makes seven calls to console.log to output the following triangle:
+// #
+// ##
+// ###
+// ####
+// #####
+// ######
+// #######
+var content = '';
+
+for (var i = 0; i < 7; i++) {
+    content = content + '#';
+    console.log(content);
+}
+
+
